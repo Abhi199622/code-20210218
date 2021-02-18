@@ -1,0 +1,14 @@
+1.bmi.py file contains two methods.
+    a.calculateBodyMassIndex
+    input-file path of JSON file
+    output-dataframe containing 6 columns including 'BMI(Body Mass Index)','BMI Category','Health risk'.
+
+    b.count_overweight
+    input-dataframe calculated from above method.
+    output-count of overwieght persons
+
+2.test_bmi.py
+    contains test cases to verify that edge cases for BMI(Body Mass Index) gets mapped to required BMI Category/Health risk
+
+3.requirements.txt
+    contains modules with version required to run this application.
